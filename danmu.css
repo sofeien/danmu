@@ -1,0 +1,42 @@
+div.container{
+    
+}
+div#danmu{
+    width:80%;
+    height:500px;
+    border:2px solid black;
+    margin: 50px auto 20px;
+    
+}
+input.form-control{
+    width:600px;
+    margin: auto;
+}
+
+div#options{
+    width:415px;
+    margin: 10px auto 50px;
+}
+
+button.btn.btn-default{
+    width:200px;
+    margin-right: 5px;
+    font-weight:600
+}
+
+button#fire{
+    border-color:orange;
+    color:orange;
+}
+button#fire:hover{
+    background-color:orange;
+    color:white;
+}
+button#clear{
+    border-color:gray;
+    color:gray;
+}
+button#clear:hover{
+    background-color:gray;
+    color:white;
+}
