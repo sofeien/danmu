@@ -1,16 +1,19 @@
-div.container{
-    
+body{
+    font-family: "Microsoft Yahei";
 }
 div#danmu{
     width:80%;
-    height:500px;
+    height:510px;
+    line-height: 25px;
     border:2px solid black;
     margin: 50px auto 20px;
-    
+    overflow: hidden;
+    position:relative;
 }
 input.form-control{
-    width:600px;
+    width:350px;
     margin: auto;
+    font-size:16px;
 }
 
 div#options{
@@ -21,7 +24,8 @@ div#options{
 button.btn.btn-default{
     width:200px;
     margin-right: 5px;
-    font-weight:600
+    font-weight:600;
+    font-size:16px;    
 }
 
 button#fire{

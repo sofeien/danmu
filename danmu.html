@@ -9,12 +9,13 @@
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="danmu.css">
+    <script src="danmu.js"></script>
 </head>
 
 <body>
     <div class="container">
         <div id="danmu"></div>
-        <input  class="form-control" id="word" type="text" placeholder="说点什么吧" autofocus>
+        <input  class="form-control" id="word" type="text" placeholder="说点什么吧" autofocus maxlength=20 title="最大输入20个字符">
         <div id="options">
             <button id="fire" class="btn btn-default">发射</button>
             <button id="clear" class="btn btn-default">清屏</button>
